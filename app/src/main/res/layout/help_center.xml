@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/cardnew"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help Center"
+        android:textColor="#8B0000"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="30dp"
+        android:layout_gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:id="@+id/admin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Admin Mobile No"
+                android:textColor="#DC143C"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6363096585"
+                android:textColor="#03254c"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                />
+            <ImageView
+                android:layout_width="80sp"
+                android:layout_height="50sp"
+                android:src="@drawable/contact"
+                android:layout_gravity="center"
+                android:id="@+id/img_call1"
+                />
+
+
+
+            <TextView
+                android:id="@+id/techincal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Techincal Support Mno"
+                android:textColor="#DC143C"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/mobile_tsc"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7090102409"
+                android:textColor="#03254c"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                />
+            <ImageView
+                android:layout_width="80sp"
+                android:layout_height="50sp"
+                android:src="@drawable/contact"
+                android:layout_gravity="center"
+                android:id="@+id/img_call2"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Developed by:"
+                android:textSize="20sp"
+                android:textColor="#DC143C"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="50dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/tv3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Meenaz S K"
+                android:textSize="18sp"
+                android:textColor="#000080"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="72dp"
+
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/tv4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sumankousar"
+                android:textSize="18sp"
+                android:textColor="#000080"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="55dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/tv5"
+                android:layout_marginBottom="5dp"/>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

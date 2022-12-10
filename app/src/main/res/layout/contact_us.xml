@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:card_view="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@drawable/cardnew">
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Details"
+        android:textColor="#8B0000"
+        android:textSize="30sp"
+android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+
+
+<android.support.v7.widget.CardView
+    android:id="@+id/contact_card"
+    android:layout_margin="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="390dp"
+    card_view:cardCornerRadius="30dp"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="100sp"
+            android:layout_height="120sp"
+            android:src="@drawable/contact"
+            android:id="@+id/suman"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUMANKOUSAR"
+            android:textColor="#DC143C"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6363096585"
+            android:textColor="#03254c"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="08dp"/>
+
+        <TextView
+            android:id="@+id/mno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sumankousar@gmail.com"
+            android:textColor="#03254c"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="08dp"/>
+
+        <TextView
+            android:id="@+id/name_va"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MEENAZ KAGADGAR"
+            android:textColor="#DC143C"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/email_va"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7090102409"
+            android:textColor="#03254c"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="08dp"
+            />
+
+        <TextView
+            android:id="@+id/mno_va"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="kagadgarmeenaz123@gmail.com"
+            android:textColor="#03254c"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20sp"
+            android:layout_marginTop="08dp"
+            />
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
+
+
+</LinearLayout>
